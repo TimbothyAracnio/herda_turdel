@@ -20,13 +20,15 @@ def eye1():
     eyey1.pendown()
     eyey1.begin_fill()
     eyey1.circle(10)
-    eyey1
+    eyey1.end_fill()
 
 def eye2():
     eyey2.penup()
     eyey2.goto(60, 100)
     eyey2.pendown()
+    eyey2.begin_fill()
     eyey2.circle(10)
+    eyey2.end_fill()
 
 face()
 eye1()
